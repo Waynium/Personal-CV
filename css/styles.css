@@ -1,0 +1,42 @@
+/* This is the external CSS file which is for styling the html elements
+ * An external file is better than styling CSS internally, within the html code
+ * If you style your html files internally, then you have to style every single file,
+ * by copying and pasting the same piece of code over 200 websites, if you have 200 websites
+ * Therefore, styling css externally helps me to just write a single code for css which
+ * is applied to all my html folders
+ */
+body {
+    background-color:#daa520;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    /*font-family:'Courier New', Courier, monospace;*/
+}
+
+hr {
+    /*in html, everything is in boxes, the hr line is a box with a very small width
+     *border-width is the width of the hr box, which is very small, in its default values.
+     *and then width is the literal length of the line across the page width. 
+     *hence, border-top-style, which is the top part of the hr box
+    */
+    background-color:#daa520;
+    border-style:none;
+    border-top-style:dotted;
+    border-color: black;
+    width: 5%;
+    border-width: 7px;
+}
+
+img {
+    height: 250px;
+}
+
+h1 {
+    color: #5f4400;
+}
+
+h2 {
+    color: #5f4400;
+}
+
+h3 {
+    color: #5f4400;
+}
