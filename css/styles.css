@@ -4,11 +4,28 @@
  * by copying and pasting the same piece of code over 200 websites, if you have 200 websites
  * Therefore, styling css externally helps me to just write a single code for css which
  * is applied to all my html folders
- */
+ *
+ * CSS syntax
+ * selector {
+ *     property: value
+ * }
+ * seletor  => who
+ * property => what
+ * value    => how
+*/
+p { 
+    background-image: none;
+    background-color: transparent;
+}
+
+div { 
+    background-image:url("backgroundPic.jpg");
+}
 body {
     background-color:#daa520;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
-    /*font-family:'Courier New', Courier, monospace;*/
+    /*font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    font-family:Soehne, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+    background-image:url("backgroundPic.jpg");
 }
 
 hr {
@@ -20,23 +37,23 @@ hr {
     background-color:#daa520;
     border-style:none;
     border-top-style:dotted;
-    border-color: black;
+    border-color: white;
     width: 5%;
     border-width: 7px;
 }
 
-img {
-    height: 250px;
-}
+table {border-top: 1px solid white; border-left: 1px solid white;
+    border-right: 1px solid white; border-bottom: 1px solid white;
+    }
 
-h1 {
-    color: #5f4400;
-}
+img { height: 250px;}
+  
+h1 { color: #5f4400;}
 
-h2 {
-    color: #5f4400;
-}
+h2 { color: #5f4400;}
 
-h3 {
-    color: #5f4400;
-}
+h3 { color: #5f4400;}
+
+ul { margin:5px;}
+
+/*p { text-align: center;}
